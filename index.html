@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal portfolio of a Software Engineering student.">
+<title>Marie Kimberly Cocora | Portfolio</title>
+<style>
+:root{--navy:#102a56;--blue:#1d4e89;--pale:#edf3fa;--ink:#17243a;--muted:#617087;--white:#fff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f7f9fc;line-height:1.65}
+header{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.96);border-bottom:1px solid #dce5f0}
+nav{max-width:1080px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.brand{font-weight:800;letter-spacing:.5px;color:var(--navy)}
+nav a{color:var(--ink);text-decoration:none;margin-left:16px;font-size:.93rem}
+nav a:hover{color:var(--blue)}
+main{max-width:1080px;margin:auto;padding:0 22px 55px}
+.hero{padding:82px 0 68px;display:grid;grid-template-columns:1.5fr .8fr;gap:36px;align-items:center}
+.eyebrow{color:var(--blue);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.8rem}
+h1{font-size:clamp(2.5rem,6vw,4.5rem);line-height:1.08;margin:12px 0 18px;color:var(--navy)}
+h1 span{color:var(--blue)}
+.hero p{color:var(--muted);max-width:620px;font-size:1.1rem}
+.hero-card{background:linear-gradient(145deg,#e6eef8,#fff);border:1px solid #d5e1ef;border-radius:24px;padding:30px;text-align:center}
+.monogram{width:116px;height:116px;margin:0 auto 15px;display:grid;place-items:center;border-radius:50%;background:var(--navy);color:white;font-size:2.5rem;font-weight:800}
+.hero-card p{margin:0;font-size:.95rem}
+.button{display:inline-block;margin-top:18px;padding:12px 20px;background:var(--navy);color:white;border-radius:9px;text-decoration:none;font-weight:700}
+.button:hover{background:var(--blue)}
+section{padding:43px 0;border-top:1px solid #e1e8f0}
+h2{font-size:1.8rem;margin:0 0 20px;color:var(--navy)}
+.intro{max-width:780px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:var(--white);border:1px solid #e0e7f0;border-radius:15px;padding:22px;box-shadow:0 7px 22px rgba(16,42,86,.045)}
+.card h3{margin:0 0 8px;color:var(--navy)}
+.card p,.muted{color:var(--muted);margin:0}
+.tag-list{display:flex;flex-wrap:wrap;gap:10px}
+.tag{background:var(--pale);color:var(--navy);border:1px solid #d7e3f1;padding:7px 12px;border-radius:25px;font-size:.92rem}
+.timeline-item{margin-bottom:18px}
+.timeline-item:last-child{margin-bottom:0}
+.timeline-item strong{display:block;color:var(--navy)}
+.date{color:var(--muted);font-size:.93rem}
+footer{text-align:center;padding:27px 20px;color:var(--muted);border-top:1px solid #e1e8f0;background:white}
+@media(max-width:720px){nav{align-items:flex-start;flex-direction:column}nav a{margin:0 12px 0 0;display:inline-block}.hero{grid-template-columns:1fr;padding:55px 0 42px}.hero-card{max-width:360px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><nav>
+<div class="brand">MARIE KIMBERLY COCORA</div>
+<div><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
+</nav></header>
+<main>
+<div class="hero">
+<div><div class="eyebrow">Software Engineering Student</div>
+<h1>Hello, I'm <span>Kimberly.</span></h1>
+<p>I am a Software Engineering student eager to gain practical experience, improve my skills and learn new things.</p>
+<a class="button" href="#projects">Explore my projects</a></div>
+<div class="hero-card"><div class="monogram">MK</div><h3>Future Software Engineer</h3><p>Learning, building and improving through practical projects.</p></div>
+</div>
+<section id="about"><h2>About Me</h2><p class="intro">I am studying for a BSc (Hons) in Software Engineering at the University of Technology, Mauritius. I am interested in software development and enjoy applying what I learn through practical projects. I value teamwork, communication and problem-solving.</p></section>
+<section id="education"><h2>Education</h2><div class="card">
+<div class="timeline-item"><strong>BSc (Hons) Software Engineering</strong><div class="date">2025 – Present</div>University of Technology, Mauritius</div>
+<div class="timeline-item"><strong>Higher School Certificate (2024) and School Certificate (2022)</strong><div class="date">2017 – 2024</div>Quatre Bornes SSS</div>
+<div class="timeline-item"><strong>Certificate of Primary Education (2016)</strong><div class="date">2011 – 2016</div>Case Noyale RCA</div>
+</div></section>
+<section id="skills"><h2>Skills</h2><div class="grid">
+<div class="card"><h3>Technical Skills</h3><div class="tag-list">
+<span class="tag">Java</span><span class="tag">SQL & Database Management</span><span class="tag">C#</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Kotlin</span><span class="tag">VB.NET</span><span class="tag">Object-Oriented Programming</span><span class="tag">Microsoft Visual Studio</span><span class="tag">Visual Studio Code</span><span class="tag">Apache NetBeans</span>
+</div></div>
+<div class="card"><h3>Personal Skills</h3><div class="tag-list">
+<span class="tag">Teamwork</span><span class="tag">Problem-Solving</span><span class="tag">Quick Learning</span><span class="tag">Communication</span><span class="tag">Active Listening</span>
+</div></div></div></section>
+<section id="projects"><h2>Projects</h2><div class="grid">
+<article class="card"><h3>Grand Port District – Mauritius Website</h3><p>Designed and developed a responsive informational website about the Grand Port district. Created webpages covering history, culture, nature, tourist attractions and activities, using HTML, CSS and Bootstrap.</p></article>
+<article class="card"><h3>Swimming Pool Staff Management System</h3><p>Developed a Java application using NetBeans to manage staff records. Implemented functions to add, update, delete and search staff records, organised staff into categories and applied Object-Oriented Programming concepts.</p></article>
+<article class="card"><h3>MoProf – Online Tutoring Platform</h3><p>Worked on a website connecting students with private tutors in Mauritius, with tutor registration, search and booking features. Technologies listed in the project: ASP.NET Web Forms, C#, HTML, CSS, Bootstrap and Microsoft SQL Server.</p></article>
+</div></section>
+<section id="experience"><h2>Experience</h2><div class="card"><h3>Babysitting (Part-time)</h3><div class="date">2025 – Present</div></div></section>
+<section id="achievements"><h2>Achievements & Awards</h2><div class="card"><p>Certificate of Achievement – Junior Achievement (JA) Company Programme</p><p style="margin-top:12px">Certificate of Merit – Alliance Française French Language Competition</p></div></section>
+<section id="activities"><h2>Activities & Interests</h2><div class="tag-list"><span class="tag">Sport</span><span class="tag">Photography</span><span class="tag">Travelling and exploring new places</span></div></section>
+<section id="languages"><h2>Languages</h2><div class="tag-list"><span class="tag">English</span><span class="tag">French</span><span class="tag">Mauritian Creole</span></div></section>
+<section id="contact"><h2>Contact</h2><div class="card"><p>For professional enquiries, you can contact me by email.</p><p style="margin-top:10px"><strong>Email:</strong> [Add your email address]</p><p><strong>LinkedIn:</strong> [Add your profile link if available]</p><p><strong>GitHub:</strong> [Add your profile link if available]</p></div></section>
+</main>
+<footer>© 2026 Marie Kimberly Cocora · Personal Portfolio</footer>
+</body></html>
